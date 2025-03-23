@@ -31,7 +31,7 @@ elif scissors_button:
 
 # APIリクエスト
 if player_choice:
-    api_url = "http://localhost:8000/janken/" #　FastAPI は、デフォルトで localhost:8000
+    api_url = "https://janken-app.onrender.com/" #　FastAPI は、デフォルトで localhost:8000
     
     response = requests.post(
         api_url,
